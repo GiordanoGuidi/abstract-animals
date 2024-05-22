@@ -24,7 +24,9 @@ public abstract class Animal {
     Questi metodi prendono come parametro un animale che può o volare / nuotare e richiamano il corrispondente metodo vola() / nuota().
     Scrivere un programma che istanzi animali che volano o nuotano e richiamare i metodi faiVolare / faiNuotare passandoglieli come parametro.*/
 
-    public abstract void dormi();
-    public abstract void verso();
-    public abstract void mangia();
+    public void sleep(){
+        System.out.println("ZzzzZzzz");
+    };
+    public abstract void howl();
+    public abstract void eat();
 }
