@@ -13,6 +13,6 @@ public class LittleSparrow extends Animal implements CanFly{
 
     @Override
     public void fly() {
-        System.out.println("Sto volandooo!!!");
+        System.out.println("Sono un passerotto Sto volandooo!!!");
     }
 }
