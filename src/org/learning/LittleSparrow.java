@@ -1,6 +1,6 @@
 package org.learning;
 
-public class LittleSparrow extends Animal{
+public class LittleSparrow extends Animal implements CanFly{
     @Override
     public void howl() {
         System.out.println("cheep-cheep");
@@ -9,5 +9,10 @@ public class LittleSparrow extends Animal{
     @Override
     public void eat() {
         System.out.println("Sono un passerotto mangio:frutta,semi");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sto volandooo!!!");
     }
 }
